@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: local("PT Sans"),
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("PT Sans"),
 		url("../fonts/pt-sans.woff2") format("woff2"),
 		url("../fonts/pt-sans.woff") format("woff");
-  font-display: swap;
+	font-display: swap;
 }
 
 @font-face {
-  font-family: "PT Sans";
-  font-weight: 700;
-  src: local("PT Sans"),
+	font-family: "PT Sans";
+	font-weight: 700;
+	src: local("PT Sans"),
 		url("../fonts/pt-sans-bold.woff2") format("woff2"),
 		url("../fonts/pt-sans-bold.woff") format("woff");
-  font-display: swap;
+	font-display: swap;
 }
 
 body {
@@ -26,17 +26,17 @@ body {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+	}
 
 /* Header */
 .navigation__link {
@@ -79,7 +79,7 @@ body {
 	font-size: 22px;
 	line-height: 26px;
 	font-weight: normal;
-	color: #000000;
+	color: #333333;
 }
 
 .advantages-item__title {
@@ -154,7 +154,7 @@ body {
 	font-size: 30px;
 	line-height: 36px;
 	font-weight: bold;
-	color: #333333;
+	color: #000000;
 	text-transform: uppercase;
 }
 
@@ -162,7 +162,7 @@ body {
 	font-size: 22px;
 	line-height: 26px;
 	font-weight: normal;
-	color: #000000;
+	color: #333333;
 }
 
 .services-search__button {
@@ -211,7 +211,7 @@ body {
 }
 
 .newsletter__title-text.newsletter__title-text--brown {
-	color: #000000;
+	color: #333333;
 }
 
 .newsletter__email__button {
