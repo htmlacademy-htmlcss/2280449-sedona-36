@@ -610,7 +610,7 @@ list-style: none;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 48px;
+	margin-bottom: 40px;
 }
 
 .hotels__sorting {
@@ -637,22 +637,23 @@ list-style: none;
 }
 
 .hotels__list {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	width: 1060px;
+	grid-template-columns: 340px 340px 340px;
+	row-gap: 20px;
+	column-gap: 20px;
 	list-style: none;
-	justify-content: space-between;
 	margin: 0;
-	margin-bottom: 48px;
+	margin-bottom: 76px;
 	padding: 0;
 	border-bottom: 1px solid #f2f2f2;
 
 }
 
 .hotels__item-block {
-	width: 326px;
-	padding: 12px;
+	width: 340px;
+	padding: 20px;
 	margin: 0;
-	margin-bottom: 36px;
 	border:1px solid #F2F2F2;
 }
 
