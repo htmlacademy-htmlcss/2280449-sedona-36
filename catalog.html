@@ -48,7 +48,7 @@
           <h1 class="inner-header__title">Гостиницы Седоны</h1>
           <ul class="breadcrumbs-list">
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="index.html">
+              <a class="breadcrumbs-link-home" href="index.html">
                 <span class="visually-hidden">Домой</span>
               </a>
             </li>
@@ -117,12 +117,12 @@
               <legend class="catalog-filter__title">Стоимость,₽:</legend>
             <div class="catalog-filter-price-wrapper">
               <label class="catalog-filter-price">
-                <!-- От -->
                 <input class="catalog-filter-input-price" type="number" value="0" id="price-from">
+                <span class="catalog-filter-input-span">от</span>
               </label>
               <label class="catalog-filter-price">
-                <!-- До -->
                 <input class="catalog-filter-input-price" type="number" value="9000" id="price-up">
+                <span class="catalog-filter-input-span">до</span>
               </label>
             </div>
               <input class="catalog-filter-range-price" type="range" id="range-price">
@@ -230,7 +230,9 @@
             <button class="button button--blue button--small" type="button">В избранное</button>
           </div>
           <div class="hotel-star">
-            <!-- Блок со звездочками-->
+            <p class="hotel-stars hotel-stars--two-star">
+              <span class="visually-hidden">Звездность отеля 2 звезды</span>
+            </p>
             <span class="hotel__rating">Рейтинг: 5,0</span>
           </div>
           </li>
